@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+http://developer.android.com/guide/topics/data/install-location.html
+
+2.2.3 (16):
+Added wave 10b (#14)
+Fixed whitespace in Spanish translation (no UI impact)
+Fixed English Translation (#12)
+Added translator credits (#15) (needs to be translated some more though)
+Scroll list to last used wave (#16)
+TODO:
+Let Translators translate the Credits bit.
+
+2.2.2 (15):
+Added Spanish (#6)
+Added German (#6)
+Added Russion text for buttons (#10)
+Added Swedish (#6)
+Fixed Typo in English text
+Fixed fixed Wave 10a (#13)
+
+2.2.1 (14):
+Added Polish (#6)
+Fixed text on buttons, not translated (#10)
+Fixed Checkbox unchecking while scrolling (#11)
+
+2.2 (13):
+Added French (#6)
+Switched to ListView (#4)
+Fixed Typo (#1)
+Added ACRA (App Crash Reporting) (#9)
+Added Internet-permission, for ACRA (#9)
+Fixed Crash on Android 2.1 (#8)
+Added Russian (#6)
+
+2.1 (12):
+Switched to CSV bases data-set.
+Added new data from MLPMerch.com
+Changed import/export function
+added BackupAgent
+
+2.0 (11):
+Switched to JSON based data-set.
+
+1.2:
+Changed App Icon, because of Google Play Store policy changes
+https://support.google.com/googleplay/android-developer/answer/6066610?rd=1
+icon made by CleverDerpy
+Removed redundant 'Settings' button
+
+1.1.5:
+- Fixed Wave 10
+
+1.1.4:
+- Added Wave 10
+
+1.1.3:
+- Added Wave 9 (By Ossie)
+
+1.1.2:
+- Corrected Wave 8 UK alternative 1 (Thanks Rory)
+
+1.1.1:
+- Added Wave 8 UK alternative 2
+
+1.1:
+- added Wave 8 UK alternative 1
+- added progress-numbers
+- added disclamer
+//-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="nl.frankkie.bronymlpblindbagguide"
+          android:installLocation="preferExternal" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+    
+    <!-- Needed for ACRA Crash Reporting //-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:backupAgent="MyBackupAgent"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".MyApplication"
+        android:theme="@style/AppTheme" >
+        
+        <meta-data 
+            android:name="com.google.android.backup.api_key" 
+            android:value="AEdPqrEAAAAIkJx_Sc5BGkYAOWVFKkrTRsACmMbS0fzCsFf42g" />
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WavesActivity" />
+        <activity android:name=".WaveActivity" />
+        <activity android:name=".CreditsActivity" />
+        <activity android:name=".TutorialActivity" />
+    </application>
+
+</manifest>

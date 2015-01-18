@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //-->
+    <string name="app_name">Brony MLP Blind Bag Guide</string>
+    <string name="main_welcome">My Little Pony G4 Blind Bag Guide
+\nCreated with info from the MLPMerch.com Blind Bag Database.
+\n
+\nVisit MLPMerch.com for the online Blind Bag Database and MLP merch news!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tut1">
+Did you know that you can predict what an MLP blind bag will contain without opening it?
+\nWe\'ll teach you all about it in this tutorial!
+\n
+\nStep 1: First you need to know which wave of blind bag you see in a store. In this app you can see which bag matches the one in your store.
+\n
+\nStep 2: Find the code on the blind bag (examples below):
+\n- Wave 1-7 blind bags have a seam on the back of the blind bag with a code, this code is either 2 or 5 numbers long. When you have a 5-number code, only read the 2nd and 4th number: #80216 is #01 and #82206 is #20.
+\n- Wave 8-11 blind bags have a 2-letter code on the bottom of the bag.
+\n
+Step 3: Use this app to see which pony of the selected wave matches the code!
+\n
+\nHere are 2 examples:
+    </string>
+    <string name="tut2">
+This Wave 5 blind bag has code #70192 (#09), which is Rainbow Dash!</string>
+    <string name="tut3">
+This Wave 9 blind bag has code AH, which is Shoeshine!</string>
+    <string name="credits">
+This application is made by FrankkieNL, Fluffikens and MLPMerch.com.
+\nThe original (flash) application is made by Jaroslav Vozar.
+\n
+\nImages by:\n
+\nMLPMerch.com, Elwyn, Breyer600, collec-jcg and StrawberryReef.
+\n
+\nLinks:
+\nhttp://www.mlpmerch.com/p/mlp-blind-bag-database.html
+\nhttp://jerry411.deviantart.com/art/My-Little-Pony-G4-Blind-Bag-Guide-ver-1-2-394703136
+\nhttp://www.equestriadaily.com/2013/08/blind-bag-identification-application.html
+    </string>
+    
+    <!-- Import and Export //-->
+    <string name="error">Error</string>
+    <!-- note 2 self: 'import' is a reserved keyword //-->
+    <string name="data_import">Import</string>
+    <string name="data_export">Export</string>
+    <string name="data_import_paste">Import, paste here</string>
+    <string name="data_import_error">Import Error\nPlease check the data and try again.</string>
+    <string name="data_import_done">Import done</string>
+    
+    <!-- Welcome Screen //-->
+    <string name="welcome_title">Welcome !</string>
+    <string name="welcome_message">This application has been updated!\nFrankkieNL is now collaborating with MLPMerch.com to provide the most up-to-date Blind Bag information!</string>
+
+    <!-- Wave Descriptions //-->
+    <string name="wave_1">Wave 1 contains 24 figures, 3 of which are transparent with glitter.</string>
+    <string name="wave_2">Wave 2 contains 24 figures, 3 of which are transparent with glitter. (EU Only)</string>
+    <string name="wave_3">Wave 3 contains 24 figures, 3 of which are glow in the dark.</string>
+    <string name="wave_4">Wave 4 contains 24 figures, 3 of which are metallic.</string>
+    <string name="wave_5">Wave 5 contains 24 figures.</string>
+    <string name="wave_6">Wave 6 contains 24 figures, 3 of which have gem cutie marks.</string>
+    <string name="wave_7">Wave 7 contains 24 figures, all of which are transparent with painted hair.</string>
+    <string name="wave_8">Wave 8 contains 24 figures, all of which are transparent (neon) with painted hair.</string>
+    <string name="wave_8a">Wave 8A contains 12 figures, all of which are transparent (neon) with painted hair. (UK Only)</string>
+    <string name="wave_8b">Wave 8B contains 12 figures, all of which are transparent (neon) with painted hair. (UK Only)</string>
+    <string name="wave_9">Wave 9 contains 24 figures, 3 of which are rainbowfied ponies.</string>
+    <string name="wave_9a">Wave 9A contains 12 figures, 1 of which is a rainbowfied pony. (UK Only)</string>
+    <string name="wave_9b">Wave 9B contains 12 figures, 2 of which are rainbowfied ponies. (UK Only)</string>
+    <string name="wave_10">Wave 10 contains 24 figures, all are transparent with painted hair and glitter.</string>
+    <string name="wave_10a">Wave 10A contains 12 figures, all are transparent with painted hair and glitter. (UK Only)</string>
+    <string name="wave_10b">Wave 10B contains 12 figures, all are transparent with painted hair and glitter. (UK Only)</string>
+    <string name="wave_11">Wave 11 contains 24 figures.</string>
+    <string name="wave_12">Wave 12 contains 24 figures.</string>
+    <string name="wave_collection_sets">Collection sets are special releases with a few figures, exclusive to a certain store.</string>
+    <string name="wave_mini_sets">Mini sets contain 3 to 6 figures based on a certain theme.</string>
+    
+    <!-- Buttons //-->
+    <string name="btn_codes">Codes</string>
+    <string name="btn_tutorial">Tutorial</string>
+    <!-- meaning: 'creators, contributor, authors'; or 'about this app' //-->
+    <string name="btn_credits">Credits</string>
+    <string name="wave">Wave</string>
+    <string name="waves">Waves</string>
+    <string name="collection_sets">Collection Sets</string>
+    <string name="mini_sets">Mini Sets</string>
+      
+    <string name="credits_translator">This app has been translated by:</string>
+    <string name="credits_translator_names">
+        Dutch - Ossie7 and FrankkieNL
+        \nEnglish - Ossie7
+        \nFrench - Silou_Fr
+        \nRussian - Tomo
+        \nPolish - ElectricPsoras
+        \nGerman - Rainbow_Dashie
+        \nSpanish - ConfusionRift
+        \nSwedish - Dekko
+    </string>  
+      
+</resources>
