@@ -81,4 +81,5 @@ Cette application est faite par FrankkieNL, Fluffikens et MLPMerch.com.
     <string name="waves">Vagues</string>
     <string name="collection_sets">Sets de collection</string>
     <string name="mini_sets">Mini sets</string>
+    <string name="wave_12">La vague 12 contient 24 figurines.</string>
 </resources>

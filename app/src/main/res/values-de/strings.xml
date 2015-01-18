@@ -81,5 +81,6 @@
     <string name="waves">Wellen</string>
     <string name="collection_sets">Abholung Set zu</string>
     <string name="mini_sets">Mini-Sets</string>
-       
+    <string name="wave_12">Welle 12 enthält 24 Figuren.</string>
+
 </resources>
