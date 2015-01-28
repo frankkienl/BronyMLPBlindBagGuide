@@ -89,7 +89,8 @@ public class WaveActivity extends ListActivity {
                 Drawable d = Drawable.createFromStream(getAssets().open("images/" + pony.getImageName()), null);
                 ((ImageView) convertView.findViewById(R.id.row_icon)).setImageDrawable(d);
             } catch (Exception e) {
-                //ignore
+                //on error, show icon
+                ((ImageView) convertView.findViewById(R.id.row_icon)).setImageResource(R.drawable.ic_launcher);                
             }
             ((TextView) convertView.findViewById(R.id.row_title)).setText(pony.getPonyName());
             if (pony.getDescription() == null || pony.getDescription().length == 0) {

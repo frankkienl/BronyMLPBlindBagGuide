@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en" tools:ignore="MissingTranslation">
 <!-- http://codereview.stackexchange.com/questions/3099/android-remove-useless-whitespace-from-styled-string //-->
     <string name="app_name">Brony MLP Blind Bag Guide</string>
     <string name="main_welcome">My Little Pony G4 Blind Bag Guide
