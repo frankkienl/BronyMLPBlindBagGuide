@@ -136,11 +136,13 @@ public class Util {
         //Wave 10b has the same cover image as wave 10a
         Wave w10b = new Wave(context, 102, waveString + " 10b", R.string.wave_10b, "covers/mlp-wave-10a-uk-blind-bag.jpg", "data/wave-10b.csv");
         Wave w11 = new Wave(context, 11, waveString + " 11", R.string.wave_11, "covers/mlp-wave-11-blind-bag.jpg", "data/wave-11.csv");
-        Wave w12 = new Wave(context, 11, waveString + " 12", R.string.wave_12, "covers/Wave-12.jpg","data/wave-12.csv");
+        Wave w11a = new Wave(context, 111, waveString + " 11a", R.string.wave_11, "covers/mlp-wave-11a-uk-blind-bag.jpg", "data/wave-11a.csv");
+        Wave w11b = new Wave(context, 112, waveString + " 11b", R.string.wave_11, "covers/mlp-wave-11b-uk-blind-bag.jpg", "data/wave-11b.csv");
+        Wave w12 = new Wave(context, 12, waveString + " 12", R.string.wave_12, "covers/Wave-12.jpg","data/wave-12.csv");
         Wave collectionSets = new Wave(context, 9001, collectionSetsString, R.string.wave_collection_sets, "covers/mlp-collection-sets-blind-bag.jpg", "data/collection-sets.csv");
         Wave miniSets = new Wave(context, 9002, miniSetsString, R.string.wave_mini_sets, "covers/mlp-mini-sets-blind-bag.jpg", "data/mini-sets.csv");
         WaveManager wavemanager = new WaveManager();
-        wavemanager.waves = new Wave[]{w1, w2, w3, w4, w5, w6, w7, w8, w8a, w8b, w9, w9a, w9b, w10, w10a, w10b, w11, w12, collectionSets, miniSets};
+        wavemanager.waves = new Wave[]{w1, w2, w3, w4, w5, w6, w7, w8, w8a, w8b, w9, w9a, w9b, w10, w10a, w10b, w11, w11a, w11b, w12, collectionSets, miniSets};
         return wavemanager;
     }
 }

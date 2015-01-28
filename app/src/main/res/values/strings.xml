@@ -93,6 +93,8 @@ This application is made by FrankkieNL, Fluffikens and MLPMerch.com.
         \nGerman - Rainbow_Dashie
         \nSpanish - ConfusionRift
         \nSwedish - Dekko
-    </string>  
-      
+    </string>
+    <string name="wave_11a">Wave 11A contains 12 figures. (UK Only)</string>
+    <string name="wave_11b">Wave 11B contains 12 figures. (UK Only)</string>
+
 </resources>
