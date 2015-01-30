@@ -85,5 +85,7 @@ Deze app is gemaakt door FrankkieNL, Fluffikens and MLPMerch.com.
 
     <string name="credits_translator">Deze app is vertaald door:</string>
     <string name="wave_12">Wave 12 bevat 24 figuren.</string>
+    <string name="wave_11a">Wave 11A bevat 12 figuren. (UK Only)</string>
+    <string name="wave_11b">Wave 11B bevat 12 figuren. (UK Only)</string>
 
 </resources>

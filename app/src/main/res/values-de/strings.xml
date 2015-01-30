@@ -82,5 +82,7 @@
     <string name="collection_sets">Abholung Set zu</string>
     <string name="mini_sets">Mini-Sets</string>
     <string name="wave_12">Welle 12 enthält 24 Figuren.</string>
+    <string name="wave_11a">Welle 11A enthält 12 Figuren.  (Nur Großbritannien)</string>
+    <string name="wave_11b">Welle 11B enthält 12 Figuren.  (Nur Großbritannien)</string>
 
 </resources>

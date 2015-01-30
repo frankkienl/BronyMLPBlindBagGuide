@@ -84,4 +84,6 @@ Denna applikation är gjord av FrankkieNL, Fluffikens och MLPMerch.com.
 
 <string name="credits_translator">Denna app har blivit översatt av:</string>
     <string name="wave_12">Våg 12 innehåller 24 figurer.</string>
+    <string name="wave_11a">Våg 11A innehåller 12 figurer. (Endast UK)</string>
+    <string name="wave_11b">Våg 11B innehåller 12 figurer. (Endast UK)</string>
 </resources>

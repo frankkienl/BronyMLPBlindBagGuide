@@ -86,4 +86,6 @@ informacje o blindbagach!</string>
     <string name="collection_sets">Zestawy kolekcjonerskie</string>
     <string name="mini_sets">Minizestawy</string>
     <string name="wave_12">Edycja 12 zawiera 24 figurki.</string>
+    <string name="wave_11a">Edycja 11A zawiera 12 figurki. (Tylko w Wielkiej Brytanii)</string>
+    <string name="wave_11b">Edycja 11B zawiera 12 figurki. (Tylko w Wielkiej Brytanii)</string>
 </resources>

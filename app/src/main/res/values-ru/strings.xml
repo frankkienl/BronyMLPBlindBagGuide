@@ -83,4 +83,6 @@
     <string name="collection_sets">Коллекционные наборы</string>
     <string name="mini_sets">Мини-наборы</string>
     <string name="wave_12">Волна 12 содержит 24 фигурки.</string>
+    <string name="wave_11a">Волна 11A содержит 12 фигурки. (только в Великобритании)</string>
+    <string name="wave_11b">Волна 11B содержит 12 фигурки. (только в Великобритании)</string>
 </resources>
